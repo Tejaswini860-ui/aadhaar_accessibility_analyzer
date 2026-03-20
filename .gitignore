@@ -3,10 +3,6 @@ __pycache__/
 .ipynb_checkpoints
 .env
 venv/
-<<<<<<< HEAD
 .DS_Store
 data/raw/*.csv
 data/processed/*.csv
-=======
-.DS_Store
->>>>>>> 360a4281112a019a0f7fb605c29914703618c669
