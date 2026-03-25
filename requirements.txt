@@ -6,3 +6,4 @@ scikit-learn
 streamlit
 geopandas
 jupyter
+altair
