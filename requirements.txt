@@ -6,4 +6,4 @@ scikit-learn
 streamlit
 geopandas
 jupyter
-altair
+altair==4.2.2
