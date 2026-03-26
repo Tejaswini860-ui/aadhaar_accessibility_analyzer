@@ -241,3 +241,31 @@ st.dataframe(
         "resource_plan"
     ]]
 )
+# existing code...
+
+# LOW ACCESS
+# RISK SCORE
+# GRAPH
+# SUGGESTIONS
+
+# -----------------------------------
+# ADD THIS AT THE END 👇
+# -----------------------------------
+
+import json
+import os
+
+OUTPUT_FILE = "output.json"
+
+st.subheader("Real-Time Producer-Consumer Output")
+
+if os.path.exists(OUTPUT_FILE):
+    with open(OUTPUT_FILE, "r") as f:
+        data = json.load(f)
+
+    if data:
+        st.dataframe(data)
+    else:
+        st.info("No data yet")
+else:
+    st.warning("No output file found")
